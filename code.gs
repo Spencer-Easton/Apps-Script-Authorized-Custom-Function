@@ -4,7 +4,6 @@ function onInstall() {
 
 function onOpen(){
   var addonMenu = SpreadsheetApp.getUi().createAddonMenu();
- // var isFull = (ScriptApp.getAuthorizationInfo(ScriptApp.AuthMode.FULL).getAuthorizationStatus() == ScriptApp.AuthorizationStatus.NOT_REQUIRED);
   if(getDriveService().hasAccess()){
     addonMenu.addItem("Deauthorize", "clearAuth") 
   }else{
