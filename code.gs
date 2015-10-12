@@ -16,7 +16,7 @@ function onOpen(){
 /**
  * Search For Files in drive
  *
- * @param {search query} see drive api
+ * @param {search term} Search term in file title.
  * @return [name,id,url]
  * @customfunction
  */
