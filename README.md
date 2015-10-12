@@ -1,7 +1,7 @@
 # Apps-Script-Authorized-Custom-Function
   
 This is a quick demo on how to write fully authenticated google spreadsheet custom functions.  
-Spreadsheet custom fucntions run in a mode that limits access to most of the built-in google services such as DriveApp and DocumentApp.  
+Spreadsheet custom functions run in a mode that limits access to most of the built-in google services such as DriveApp and DocumentApp.  
 This is an example on how you can use these services in a custom function using the new Execution API service.  
   
 ###Setup  
